@@ -1,4 +1,4 @@
-# rest-admin
+# admin
 
 > A Vue.js project
 
