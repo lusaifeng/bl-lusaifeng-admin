@@ -1,0 +1,78 @@
+/*!
+ * lusaifeng 732500779@qq.com style.scss v1.0.0
+ */
+
+$base: #c8c5bc;
+$primary: #336ba8;
+$light: #e8e8de;
+$bright: #4F5467;
+$white: #fff;
+$black: #333;
+$gray: #999;
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+
+.navbar {
+  border-bottom: 1px #eee solid;
+  .navbar-nav {
+    li {
+      margin-left: 15px;
+    }
+  }
+  a {
+    color: $gray;
+    display: block;
+    &.router-link-exact-active  {
+      color: $bright;
+    }
+  }
+}
+
+.sidebar {
+  background: $bright;
+  color: $white;
+  height: 100vh;
+  padding: 0;
+
+  &-link {
+    font-size: 14px;
+    color: $base;
+    padding: 15px;
+    display: block;
+    &.active,
+    &:hover {
+      color: $base;
+      background: rgba($color: #000000, $alpha: .07);
+    }
+  }
+  .dropdownMenu {
+
+    a {
+      color: $base;
+      padding: 15px;
+      display: block;
+      i {
+        margin-right: 7px;
+      }
+      &:hover,
+      &.router-link-exact-active {
+        background: $primary;
+        color:$white;
+      }
+    }
+    
+  }
+}
+.collapsed {
+  display: none;
+}
+
+//树tree
