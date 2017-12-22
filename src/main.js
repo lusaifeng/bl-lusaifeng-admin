@@ -1,8 +1,5 @@
 import _ from 'lodash'
-// import $ from 'jquery'
-// global.$ = $
-// Vue.prototype.jQuery = $
-// console.log(jQuery)
+
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
